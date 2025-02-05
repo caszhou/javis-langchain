@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["caszhou <zhouxiajie@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.17"
+
+[tool.poetry.scripts]
+javis = "server.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
